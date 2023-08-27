@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+#navbar{
+    font-family: 'Cabin', sans-serif;
+    display:flex;
+    background-color: black;
+}
+#logo{
+    margin: 4px 34px;
+}
+#logo img{
+    height: 96px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style:none;
+    padding: 34px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display:block;
+    border-radius: 8px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:20px 220px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-size: 2.8rem;
+}
+#home p{
+    font-size: 1.3rem;
+}
+.btn{
+    margin:14px;
+    padding:6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#home::before{
+    
+    content: "";
+    position: absolute;
+    background: url('./bg1.jpg')no-repeat center center/cover;
+    height: 58%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9;
+}
+#features{
+    height: 30%;
+    display: flex;
+    width:100%;
+    margin-top: 44px;
+}
+#features .box h2{
+    text-align: center;
+}
+#features.box p{
+    text-align: center;
+    padding: 34px;
+}
+#features .box{
+    border: 2px solid black;
+    margin:40px 1px;
+    width:600px;
+    background-color: rgb(236, 226, 226);
+    left:0;
+}
+#features .box img{
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+#brands{
+    margin:2px;
+}
+#brands img{
+    margin:1px 60px;
+}
+#brands h1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+#products{
+    margin-top:10px;
+    display:flex;
+}
+#products .items{
+    border:2px solid black;
+    border-radius: 8px;
+    width:40%;
+    margin:50px 4px;
+    height:35%;
+}
+#products .items img{
+    width:74%;
+    height:26%;
+    display: block;
+    margin: auto;
+}
+#products .items h2{
+    text-align: center;
+
+}
+#products .items p{
+    text-align: center;
+}
+.contact{
+    background: url('./bg.jpg')no-repeat center center/cover;
+    opacity: 2.8;
+    display: flex;
+    padding:34px;
+    width:100%;
+}
+.contact ul li{
+    cursor: pointer;
+    color:black;
+}
+.contact ul li:hover{
+    color: red;
+}
+
+
+    
+   
+
